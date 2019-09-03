@@ -87,10 +87,16 @@ header h2{
         
     }
 
-    header img{
+    /* header img{
         padding: 0 3%;
-        content:url(images/profile_horizontal.JPG);
+        content:url(//images/profile_horizontal.JPG);
         width:100%;
+    } */
+    header #profile_pic{
+        padding: 0 3%;
+        width: 100%;
+        padding-top: 70%;
+        background-color: lightgrey;
     }
 
     .section_title {
@@ -101,6 +107,12 @@ header h2{
     .projects img{
         width:100%;
         height:auto;
+    }
+
+    .projects .section_pic{
+        width: 100%;
+        padding-top: 70%;
+        background-color: lightgray;
     }
 
    .other_info b{
@@ -189,13 +201,14 @@ header h2{
         /* margin-right: 14%; */
         
     }
-    header img{
+    header #profile_pic{
         display: inline-block;
         position: absolute;
         right: 0;
         width:300px;
-        height: auto;
+        padding-top: 40%;
         margin: 0 5%;
+        background-color: lightgray;
         
     }
     header h1{
@@ -238,6 +251,7 @@ header h2{
     }
     .projects .section_pic{
         width: 100%;
+        padding-top:50%;
         background-color: lightgray;
     }
     .projects b{
